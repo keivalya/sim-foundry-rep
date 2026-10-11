@@ -1,0 +1,15 @@
+camera ext_scene, 35 probed frames
+floor plane recovered from the depth image at z = +0.0010 m  (scene floor is z = 0 -- this validates the reported camera pose)
+
+link        frames  render err mm     p90   worst  step motion mm  err@still  err@fast      r  slope
+base            35           1.46    1.47    3.03            0.00       1.46       nan    nan    nan
+shoulder        35           1.85    3.15   12.91            0.00       1.85       nan  0.053 15591.620
+upper_arm       35           2.52    6.04    9.00            0.00       2.29       nan  0.613  0.346
+lower_arm       35           6.24   11.40   21.36            0.03       2.08       nan  0.746  0.447
+wrist           35           7.41   25.34   29.45            9.00       1.35     26.33  0.806  0.391
+gripper         35          16.01   41.97   69.37           16.32      15.52     50.42  0.763  0.488
+jaw             33          17.34   39.28   68.86           23.74       3.47     28.24  0.917  0.628
+
+err@still = frames where the link moved < 2 mm during the step;
+err@fast  = frames where it moved > 40 mm. A renderer that misplaces
+geometry would be wrong at BOTH; a one-step latency is only wrong at speed.

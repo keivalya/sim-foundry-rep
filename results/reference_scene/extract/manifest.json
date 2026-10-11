@@ -1,0 +1,318 @@
+{
+  "schema": "simfoundry.light_editor.manifest.v1",
+  "scene_json": "/scratch/pandya.kei/repos/SimFoundry/Data/reference_demo/s14_og/reconstructed_og_scene.json",
+  "base_scene_sha256": "87cc9a05f031605a4265fc24594334684d39d10896de92750449f1d47f85cd2d",
+  "source_scene_sha256": "87cc9a05f031605a4265fc24594334684d39d10896de92750449f1d47f85cd2d",
+  "extractor_version": "f131899e1228",
+  "complete": true,
+  "errors": [],
+  "objects": [
+    {
+      "name": "robot0",
+      "category": "FrankaPanda",
+      "kind": "robot",
+      "editable": false,
+      "posable": true,
+      "scalable": false,
+      "physics": {
+        "link": "panda_link0",
+        "links": [
+          "panda_link0",
+          "panda_link1",
+          "panda_link2",
+          "panda_link3",
+          "panda_link4",
+          "panda_link5",
+          "panda_link6",
+          "panda_link7",
+          "panda_hand",
+          "panda_leftfinger",
+          "panda_rightfinger",
+          "eef_link"
+        ],
+        "authored_mass": 3.06,
+        "mass": null,
+        "friction": null
+      },
+      "joints": null,
+      "glb": "asset_0000.glb",
+      "splat": null,
+      "position": [
+        -0.9999999403953552,
+        5.820766091346741e-10,
+        -2.60770320892334e-08
+      ],
+      "orientation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0000001192092896
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceUsd": "/scratch/pandya.kei/repos/SimFoundry/deps/BEHAVIOR-1K/datasets/omnigibson-robot-assets/models/franka/franka_panda/usd/franka_panda.usda",
+      "status": "ok",
+      "error": null,
+      "textured": false,
+      "verts": 400407,
+      "faces": 135884,
+      "nativeSize": [
+        0.617397,
+        0.259327,
+        0.692498
+      ],
+      "nativeCentre": [
+        -0.028724,
+        0.000271,
+        0.346249
+      ],
+      "scaleFidelity": {
+        "kind": "link-offset",
+        "rootScale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsetLinks": [
+          "panda_link1",
+          "panda_link2",
+          "panda_link3",
+          "panda_link4",
+          "panda_link5",
+          "panda_link6",
+          "panda_link7",
+          "panda_hand",
+          "panda_leftfinger",
+          "panda_rightfinger",
+          "eef_link"
+        ]
+      },
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "prim_failures": [],
+      "sourceMtimeNs": 1791098633766449046,
+      "jointPose": {
+        "applied": true,
+        "robot": "FrankaPanda/gripper",
+        "joints": [
+          "panda_joint1",
+          "panda_joint2",
+          "panda_joint3",
+          "panda_joint4",
+          "panda_joint5",
+          "panda_joint6",
+          "panda_joint7"
+        ],
+        "values": [
+          9.934307820813615e-10,
+          -1.2999999523162842,
+          -5.885757659029878e-09,
+          -2.869999885559082,
+          4.300796163647647e-09,
+          2.0,
+          0.75
+        ],
+        "posedLinks": 12,
+        "note": "arm joints only; gripper/hand joints left at their rest pose"
+      }
+    },
+    {
+      "name": "iter_2",
+      "category": "red_boat_toy",
+      "kind": "object",
+      "editable": true,
+      "posable": true,
+      "scalable": true,
+      "physics": {
+        "link": "link_textured_mesh",
+        "links": [
+          "link_textured_mesh"
+        ],
+        "authored_mass": 0.025,
+        "mass": null,
+        "friction": null
+      },
+      "joints": null,
+      "glb": "asset_0001.glb",
+      "splat": null,
+      "position": [
+        -0.11505167186260223,
+        -0.03623780235648155,
+        0.01031377911567688
+      ],
+      "orientation": [
+        -0.24971629679203033,
+        0.5422834157943726,
+        0.16672199964523315,
+        0.7847129106521606
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceUsd": "/scratch/pandya.kei/repos/SimFoundry/deps/BEHAVIOR-1K/datasets/real2sim-assets/objects/red_boat_toy/xlpapf/usd/xlpapf.usd",
+      "status": "ok",
+      "error": null,
+      "textured": true,
+      "verts": 25087,
+      "faces": 40000,
+      "nativeSize": [
+        0.027683,
+        0.050117,
+        0.041281
+      ],
+      "nativeCentre": [
+        -3.9e-05,
+        -0.000345,
+        -0.000225
+      ],
+      "scaleFidelity": {
+        "kind": "linear",
+        "rootScale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsetLinks": []
+      },
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "prim_failures": [],
+      "sourceMtimeNs": 1791161354017861385
+    },
+    {
+      "name": "iter_1",
+      "category": "white_paper_cup",
+      "kind": "object",
+      "editable": true,
+      "posable": true,
+      "scalable": true,
+      "physics": {
+        "link": "link_textured_mesh",
+        "links": [
+          "link_textured_mesh"
+        ],
+        "authored_mass": 0.03,
+        "mass": null,
+        "friction": null
+      },
+      "joints": null,
+      "glb": "asset_0002.glb",
+      "splat": null,
+      "position": [
+        0.05740472674369812,
+        0.006942668464034796,
+        0.10197856277227402
+      ],
+      "orientation": [
+        -0.001504644751548767,
+        0.00467333197593689,
+        -0.08051848411560059,
+        0.9967411756515503
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceUsd": "/scratch/pandya.kei/repos/SimFoundry/deps/BEHAVIOR-1K/datasets/real2sim-assets/objects/white_paper_cup/rrambd/usd/rrambd.usd",
+      "status": "ok",
+      "error": null,
+      "textured": true,
+      "verts": 23811,
+      "faces": 40000,
+      "nativeSize": [
+        0.132871,
+        0.131355,
+        0.200553
+      ],
+      "nativeCentre": [
+        -0.001381,
+        -0.00023,
+        -0.001281
+      ],
+      "scaleFidelity": {
+        "kind": "linear",
+        "rootScale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsetLinks": []
+      },
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "prim_failures": [],
+      "sourceMtimeNs": 1791161592450672136
+    },
+    {
+      "name": "iter_0",
+      "category": "orange_block_toy",
+      "kind": "object",
+      "editable": true,
+      "posable": true,
+      "scalable": true,
+      "physics": {
+        "link": "link_textured_mesh",
+        "links": [
+          "link_textured_mesh"
+        ],
+        "authored_mass": 0.015,
+        "mass": null,
+        "friction": null
+      },
+      "joints": null,
+      "glb": "asset_0003.glb",
+      "splat": null,
+      "position": [
+        -0.09168849140405655,
+        -0.09052851051092148,
+        0.017468182370066643
+      ],
+      "orientation": [
+        -0.000691831111907959,
+        -0.0002247896045446396,
+        0.7426919341087341,
+        0.6696330308914185
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sourceUsd": "/scratch/pandya.kei/repos/SimFoundry/deps/BEHAVIOR-1K/datasets/real2sim-assets/objects/orange_block_toy/slfoqu/usd/slfoqu.usd",
+      "status": "ok",
+      "error": null,
+      "textured": true,
+      "verts": 22732,
+      "faces": 40000,
+      "nativeSize": [
+        0.023103,
+        0.027472,
+        0.034087
+      ],
+      "nativeCentre": [
+        0.000221,
+        0.000283,
+        -0.000233
+      ],
+      "scaleFidelity": {
+        "kind": "linear",
+        "rootScale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "offsetLinks": []
+      },
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "prim_failures": [],
+      "sourceMtimeNs": 1791161794522936576
+    }
+  ]
+}

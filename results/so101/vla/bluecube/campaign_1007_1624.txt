@@ -1,0 +1,7 @@
+c1007_1624_s1: no poses
+c1007_1624_s2: no poses
+c1007_1624_s3: no poses
+c1007_1624_s4: no poses
+c1007_1624_s5: no poses
+c1007_1624_s6: no poses
+BEST: 

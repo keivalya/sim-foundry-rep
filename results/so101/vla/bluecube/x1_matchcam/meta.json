@@ -1,0 +1,164 @@
+{
+  "args": {
+    "scene_json": "/scratch/pandya.kei/simfoundry-repro/scene_data/bluecube/bc_matchcam.json",
+    "out_dir": "/scratch/pandya.kei/simfoundry-repro/results/so101/vla/bluecube/x1_matchcam",
+    "host": "127.0.0.1",
+    "port": 49554,
+    "steps": 450,
+    "exec_steps": 10,
+    "task": "Pick up the blue cube and place it in the gray box",
+    "warmup": 20,
+    "cam_width": 640,
+    "cam_height": 480,
+    "policy_res": 224,
+    "action_frequency": 30,
+    "rendering_frequency": 30,
+    "physics_frequency": 120,
+    "top_az": 180.0,
+    "top_el": 62.0,
+    "top_dist": 0.0,
+    "top_eye": "0.0358,-0.3882,0.3000",
+    "top_target": "0.0358,-0.2182,0.0200",
+    "top_focal": 17.0,
+    "frame_objects": "",
+    "max_step_rad": 0.0,
+    "action_offset": "",
+    "follower_alpha": "",
+    "save_every": 1,
+    "flush_every": 50
+  },
+  "cameras": {
+    "robot0:gripper:Camera:0": {
+      "prim_path": "/World/scene_0/controllable__so101__robot0/gripper/gripper_cam",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 10.5,
+      "horizontal_aperture_mm": 20.954999923706055,
+      "K": [
+        320.68718799649207,
+        320.68718799649207,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        89.87709148061597,
+        73.62183853454958
+      ]
+    },
+    "top_cam": {
+      "prim_path": "/World/scene_0/top_cam",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 17.0,
+      "horizontal_aperture_mm": 20.954999923706055,
+      "K": [
+        519.2078281847967,
+        519.2078281847967,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.2930101614886,
+        49.61678626499428
+      ]
+    }
+  },
+  "pose_keys": [
+    "link::base",
+    "link::gripper",
+    "link::jaw",
+    "link::lower_arm",
+    "link::shoulder",
+    "link::upper_arm",
+    "link::wrist",
+    "obj::agent",
+    "obj::blue_cube",
+    "obj::desk",
+    "obj::desk_mat",
+    "obj::gray_box_floor",
+    "obj::gray_box_wall_nx",
+    "obj::gray_box_wall_ny",
+    "obj::gray_box_wall_px",
+    "obj::gray_box_wall_py"
+  ],
+  "summary": {
+    "steps": 450,
+    "plans": 45,
+    "exec_steps": 10,
+    "task": "Pick up the blue cube and place it in the gray box",
+    "wall_s": 371.61017084121704,
+    "sim_step_s_mean": 0.056612142456902395,
+    "infer_s_mean": 0.22060985565185548,
+    "infer_s_p95": 0.23164710998535157,
+    "state_clamped_to_ckpt_quantiles": {
+      "shoulder_pan": 3,
+      "shoulder_lift": 1,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 2
+    },
+    "cmd_clipped_to_joint_limits": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 0,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 0
+    },
+    "max_commanded_jump_rad": 0.27474160749053955,
+    "action_offset": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "follower_alpha": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "state_range_lerobot": {
+      "shoulder_pan": [
+        -16.223403884567404,
+        29.369433526353532
+      ],
+      "shoulder_lift": [
+        -102.51549467387215,
+        25.973498346552446
+      ],
+      "elbow_flex": [
+        -20.419552301685414,
+        93.89405535118763
+      ],
+      "wrist_flex": [
+        73.21078802764106,
+        86.49300065146133
+      ],
+      "wrist_roll": [
+        -14.677133107676283,
+        24.32094478351044
+      ],
+      "gripper": [
+        1.4683207207290385,
+        29.506643832580586
+      ]
+    },
+    "object_displacement_m": {
+      "agent": 0.0,
+      "blue_cube": 0.05610031693191148,
+      "desk": 0.0,
+      "desk_mat": 0.0,
+      "gray_box_floor": 0.0,
+      "gray_box_wall_nx": 0.0,
+      "gray_box_wall_ny": 0.0,
+      "gray_box_wall_px": 0.0,
+      "gray_box_wall_py": 0.0
+    }
+  }
+}

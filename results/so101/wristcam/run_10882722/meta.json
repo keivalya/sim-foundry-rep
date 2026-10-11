@@ -1,0 +1,527 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 0,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 0,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 3,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 3,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 3,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 6,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 6,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 6,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 9,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 9,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 9,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 12,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 12,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 12,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 15,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 15,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 15,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 18,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 18,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 18,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 21,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 21,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 21,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 24,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 24,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 24,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 27,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 27,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 27,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 30,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 30,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 30,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 33,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 33,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 33,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 36,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 36,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 36,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 39,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 39,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 39,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 42,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 42,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 42,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 45,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 45,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 45,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 48,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 48,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 48,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 51,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 51,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 51,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 54,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 54,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 54,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 57,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 57,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 57,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 60,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 60,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 60,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 63,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 63,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 63,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 66,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 66,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 66,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 69,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 69,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 69,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 72,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 72,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 72,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 75,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 75,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 75,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 78,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 78,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 78,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 81,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 81,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 81,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 84,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 84,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 84,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 87,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 87,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 87,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 90,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 90,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 90,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 93,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 93,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 93,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 96,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 96,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 96,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 99,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 99,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 99,
+      "cam": "ext_parented"
+    },
+    {
+      "frame": 102,
+      "cam": "robot0:gripper:Camera:0"
+    },
+    {
+      "frame": 102,
+      "cam": "ext_scene"
+    },
+    {
+      "frame": 102,
+      "cam": "ext_parented"
+    }
+  ],
+  "links": [
+    "base",
+    "shoulder",
+    "upper_arm",
+    "lower_arm",
+    "wrist",
+    "gripper",
+    "jaw"
+  ],
+  "cameras": {
+    "robot0:gripper:Camera:0": {
+      "prim_path": "/World/scene_0/controllable__so101__robot0/gripper/gripper_cam",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 13.5,
+      "horizontal_aperture_mm": 20.954999923706055,
+      "clipping_range": [
+        0.009999999776482582,
+        1000000.0
+      ],
+      "modalities": [
+        "depth_linear",
+        "rgb"
+      ],
+      "K": [
+        412.31209885263263,
+        412.31209885263263,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        75.63087202410463,
+        60.40594304513148
+      ]
+    },
+    "ext_scene": {
+      "prim_path": "/World/scene_0/ext_scene",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 17.0,
+      "horizontal_aperture_mm": 20.9950008392334,
+      "clipping_range": [
+        0.009999999776482582,
+        1000000.0
+      ],
+      "modalities": [
+        "depth_linear",
+        "rgb"
+      ],
+      "K": [
+        518.2186027670226,
+        518.2186027670226,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.39066235987519,
+        49.7000697533687
+      ]
+    },
+    "ext_parented": {
+      "prim_path": "/World/scene_0/controllable__so101__robot0/base/ext_parented",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 17.0,
+      "horizontal_aperture_mm": 20.9950008392334,
+      "clipping_range": [
+        0.009999999776482582,
+        1000000.0
+      ],
+      "modalities": [
+        "depth_linear",
+        "rgb"
+      ],
+      "K": [
+        518.2186027670226,
+        518.2186027670226,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.39066235987519,
+        49.7000697533687
+      ]
+    }
+  },
+  "args": {
+    "scene_json": "/scratch/pandya.kei/repos/SimFoundry/Data/reference_demo/s14_og/reconstructed_og_scene_so101.json",
+    "out_dir": "/scratch/pandya.kei/simfoundry-repro/results/so101/wristcam/run_10882722",
+    "steps": 120,
+    "probe_stride": 3,
+    "cam_width": 640,
+    "cam_height": 480,
+    "rendering_frequency": 15,
+    "action_frequency": 15,
+    "physics_frequency": 120,
+    "modalities": "rgb,depth_linear",
+    "no_external": false,
+    "external_wrist": false
+  },
+  "n_frames": 105,
+  "step_dt_mean": 0.13536140578133718,
+  "step_dt_p95": 0.08862347602844238
+}

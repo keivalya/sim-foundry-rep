@@ -1,0 +1,45 @@
+f  0 hero       261910 tris  loop  22.89s -> batch  1.11s (20.7x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f  0 orbit_b    252370 tris  loop  21.46s -> batch  1.23s (17.5x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f  0 orbit_c    268847 tris  loop  22.90s -> batch  1.29s (17.7x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f  0 top        263998 tris  loop  21.95s -> batch  1.30s (16.9x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f  0 wrist      251144 tris  loop   4.79s -> batch  0.93s ( 5.1x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f140 hero       262197 tris  loop  21.44s -> batch  1.84s (11.6x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f140 orbit_b    256004 tris  loop  21.59s -> batch  1.69s (12.8x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f140 orbit_c    255937 tris  loop  21.30s -> batch  1.52s (14.0x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f140 top        251893 tris  loop  20.78s -> batch  1.54s (13.5x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f140 wrist      239639 tris  loop  11.13s -> batch  5.42s ( 2.1x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f300 hero       261741 tris  loop  21.63s -> batch  2.25s ( 9.6x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f300 orbit_b    255091 tris  loop  21.26s -> batch  1.58s (13.5x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f300 orbit_c    258549 tris  loop  21.71s -> batch  1.66s (13.1x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f300 top        256611 tris  loop  21.55s -> batch  1.43s (15.0x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+f300 wrist      242287 tris  loop   9.57s -> batch  1.72s ( 5.6x)   max float diff 0.000e+00  differing 8-bit px 0 / 256000
+backface cull f140 hero: 518884 -> 262197 tris, 4.98s -> 1.94s, differing 8-bit px 0 / 256000
+RESULT: IDENTICAL
+
+[exited with code 0]
+render_views-style scene, default args: max float diff 0.000e+00, differing 8-bit px 0 / 172800
+
+=== tools/check_wrist_cam.py ===
+1. authored camera vs renderer constants
+   mount              asset [-0.005  0.06  -0.062]  renderer [-0.005  0.06  -0.062]   max err 5.55e-17
+   forward (USD -Z)   asset [-0.       -0.707107 -0.707107]  renderer [ 0.       -0.707107 -0.707107]   max err 4.24e-10
+   up (USD +Y)        asset [-0.        0.707107 -0.707107]  renderer [ 0.        0.707107 -0.707107]   max err 4.24e-10
+   fx, fy             asset [412.312099 412.312086]  renderer [412.312099 412.312086]   max err 7.14e-07
+   (focalLength 13.5 mm, aperture 20.954999923706055 x 15.7162504196167 mm at 640x480)
+   R orthonormal err 2.22e-16, det +1.000000000
+
+2. axis convention
+   unit vector camera -> jaw pads [ 0.0697 -0.8364 -0.5437]
+   dot with USD -Z  +0.9759   <- must be ~+1 (this is forward)
+   dot with USD +Z  -0.9759   <- must be ~-1
+   OpenCV basis [right|down|fwd]: orthonormal err 2.67e-17, det +1.000000, (fwd x right == down) err 0.00e+00
+   forward [ 0.       -0.707107 -0.707107]  down [ 0.       -0.707107  0.707107]  = -(USD up) [-0.       -0.707107  0.707107]
+
+3. grasp frames: is the grasped object in the wrist image?
+  geometry from cache /scratch/pandya.kei/simfoundry-repro/results/so101/multiview/geom_cache.npz
+  wrist cam: mount [-0.005  0.06  -0.062], view dir [ 0.     -0.7071 -0.7071] (gripper frame), fx=386.54 fy=386.54 -> 85.9 deg x 60.4 deg
+   obj::orange_block_toy  frames 95-177 (83)  in frame 83/83  px x 398-424 y 307-321  off-axis 13.2-16.4 deg
+   obj::red_boat_toy      frames 225-300 (76)  in frame 76/76  px x 336-355 y 259-289  off-axis 6.1-9.4 deg
+   total grasp frames 159, outside image 0
+
+RESULT: OK

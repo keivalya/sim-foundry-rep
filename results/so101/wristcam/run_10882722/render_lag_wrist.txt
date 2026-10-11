@@ -1,0 +1,15 @@
+camera robot0:gripper:Camera:0, 35 probed frames
+floor plane recovered from the depth image at z = +0.0000 m  (scene floor is z = 0 -- this validates the reported camera pose)
+
+link        frames  render err mm     p90   worst  step motion mm  err@still  err@fast      r  slope
+base             2          33.32   43.87   46.50            0.00      33.32       nan    nan    nan
+shoulder         0   (never visible)
+upper_arm        0   (never visible)
+lower_arm        0   (never visible)
+wrist            0   (never visible)
+gripper         35          47.15  178.69  377.01           16.32      46.99     47.15  0.110  0.432
+jaw             14          15.14   20.71   89.13           25.66      18.54     16.03 -0.169 -0.125
+
+err@still = frames where the link moved < 2 mm during the step;
+err@fast  = frames where it moved > 40 mm. A renderer that misplaces
+geometry would be wrong at BOTH; a one-step latency is only wrong at speed.

@@ -1,0 +1,132 @@
+{
+  "args": {
+    "scene_json": "/scratch/pandya.kei/repos/SimFoundry/Data/reference_demo/s14_og/reconstructed_og_scene_so101_vla.json",
+    "out_dir": "/scratch/pandya.kei/simfoundry-repro/results/so101/vla/openloop50",
+    "host": "127.0.0.1",
+    "port": 40560,
+    "steps": 450,
+    "exec_steps": 50,
+    "task": "put the blue cube in the gray box",
+    "warmup": 20,
+    "cam_width": 640,
+    "cam_height": 480,
+    "policy_res": 224,
+    "action_frequency": 30,
+    "rendering_frequency": 30,
+    "physics_frequency": 120,
+    "top_az": 180.0,
+    "top_el": 62.0,
+    "top_dist": 0.0,
+    "max_step_rad": 0.0,
+    "save_every": 1,
+    "flush_every": 50
+  },
+  "cameras": {
+    "robot0:gripper:Camera:0": {
+      "prim_path": "/World/scene_0/controllable__so101__robot0/gripper/gripper_cam",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 13.5,
+      "horizontal_aperture_mm": 20.954999923706055,
+      "K": [
+        412.31209885263263,
+        412.31209885263263,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        75.63087202410463,
+        60.40594304513148
+      ]
+    },
+    "top_cam": {
+      "prim_path": "/World/scene_0/top_cam",
+      "width": 640,
+      "height": 480,
+      "focal_length_mm": 17.0,
+      "horizontal_aperture_mm": 20.954999923706055,
+      "K": [
+        519.2078281847967,
+        519.2078281847967,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.2930101614886,
+        49.61678626499428
+      ]
+    }
+  },
+  "pose_keys": [
+    "link::base",
+    "link::gripper",
+    "link::jaw",
+    "link::lower_arm",
+    "link::shoulder",
+    "link::upper_arm",
+    "link::wrist",
+    "obj::agent",
+    "obj::orange_block_toy",
+    "obj::red_boat_toy",
+    "obj::white_paper_cup"
+  ],
+  "summary": {
+    "steps": 450,
+    "plans": 9,
+    "exec_steps": 50,
+    "task": "put the blue cube in the gray box",
+    "wall_s": 510.04160833358765,
+    "sim_step_s_mean": 0.04714810689290365,
+    "infer_s_mean": 0.19284725189208984,
+    "infer_s_p95": 0.1993032455444336,
+    "state_clamped_to_ckpt_quantiles": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 0,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 1,
+      "gripper": 0
+    },
+    "cmd_clipped_to_joint_limits": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 230,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 0
+    },
+    "max_commanded_jump_rad": 0.2026902735051408,
+    "state_range_lerobot": {
+      "shoulder_pan": [
+        -10.70074285226059,
+        1.9651061751068823
+      ],
+      "shoulder_lift": [
+        -100.00028686784572,
+        -24.105255774103313
+      ],
+      "elbow_flex": [
+        5.504448533610585,
+        64.81894467744348
+      ],
+      "wrist_flex": [
+        66.67444111338321,
+        87.03094311276288
+      ],
+      "wrist_roll": [
+        -33.486258956075105,
+        -3.8597650140189472
+      ],
+      "gripper": [
+        0.2953636653390103,
+        28.067925276049177
+      ]
+    },
+    "object_displacement_m": {
+      "agent": 0.0,
+      "orange_block_toy": 0.0,
+      "red_boat_toy": 0.0,
+      "white_paper_cup": 0.0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cameras": [
+    "wrist"
+  ],
+  "frames_rendered": 327,
+  "stride": 1,
+  "width": 720,
+  "height": 450,
+  "fps": 15,
+  "floor": true,
+  "poses": "/scratch/pandya.kei/simfoundry-repro/scene_data/reference_demo/pick_place/pick_place_so101_poses.npz",
+  "wrist_cam": {
+    "mount": "-0.005,0.06,-0.062",
+    "forward": "0.0,-0.707106886,-0.707106677",
+    "up": "0.0,0.707106677,-0.707106886",
+    "intrinsics": "412.3120994977382,412.3120856288367,320.0,240.0,640.0,480.0",
+    "fov_override": 0.0
+  },
+  "seconds_total": 981.8,
+  "seconds_geometry_build": 168.0,
+  "seconds_per_camera": {
+    "wrist": 767.9
+  }
+}

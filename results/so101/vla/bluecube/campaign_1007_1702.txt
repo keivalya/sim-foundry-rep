@@ -1,0 +1,7 @@
+c1007_1702_s1 path=151mm lift=13mm closed=45 IN_BOX=False
+c1007_1702_s2 path=1805mm lift=185mm closed=527 IN_BOX=False
+c1007_1702_s3 path=64mm lift=7mm closed=50 IN_BOX=False
+c1007_1702_s4: no poses
+c1007_1702_s5 path=156mm lift=5mm closed=75 IN_BOX=False
+c1007_1702_s6 path=69mm lift=9mm closed=16 IN_BOX=False
+BEST: /scratch/pandya.kei/simfoundry-repro/results/so101/vla/bluecube/c1007_1702_s2

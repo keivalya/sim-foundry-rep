@@ -1,0 +1,125 @@
+{
+ "run": "/scratch/pandya.kei/simfoundry-repro/results/so101/vla/bluecube/r1_replay_ep0",
+ "frames": 450,
+ "cube": {
+  "start": [
+   -0.06520996242761612,
+   -0.21524004638195038,
+   0.02399999462068081
+  ],
+  "end": [
+   -0.06460476666688919,
+   -0.21822497248649597,
+   0.02399999275803566
+  ],
+  "net_displacement_m": 0.0030456601514947538,
+  "path_length_m": 0.04613443506650351,
+  "max_lift_m": 0.007501130923628807
+ },
+ "box": {
+  "centre": [
+   0.13679000000000005,
+   -0.22123999999999996,
+   0.0
+  ],
+  "inner": 0.08,
+  "rim_height_m": 0.04
+ },
+ "success": {
+  "cube_in_box_final": false,
+  "cube_in_box_any_frame": false,
+  "cube_over_box_loose": false,
+  "frames_in_box": 0
+ },
+ "gripper": {
+  "min_grasp_centre_to_cube_m": 0.02881660486433432,
+  "at_frame": 97,
+  "start_distance_m": 0.09956524585157189,
+  "final_distance_m": 0.11100336784020923,
+  "ever_opened": true,
+  "cmd_range": [
+   1.096319556236267,
+   29.913860321044922
+  ],
+  "achieved_range": [
+   1.1593005361377176,
+   29.91383719511337
+  ],
+  "frames_closed_on_cube": 19
+ },
+ "action_vs_training": {
+  "shoulder_pan": {
+   "run": [
+    -26.85714340209961,
+    -0.6593406796455383,
+    22.813186645507812
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "shoulder_lift": {
+   "run": [
+    -109.0988998413086,
+    -108.3956069946289,
+    15.120879173278809
+   ],
+   "frac_in_ckpt_q01_q99": 0.9955555555555555,
+   "clipped_frames": 0
+  },
+  "elbow_flex": {
+   "run": [
+    -3.472527503967285,
+    97.89010620117188,
+    98.85713958740234
+   ],
+   "frac_in_ckpt_q01_q99": 0.9955555555555555,
+   "clipped_frames": 0
+  },
+  "wrist_flex": {
+   "run": [
+    57.846153259277344,
+    78.4175796508789,
+    90.63735961914062
+   ],
+   "frac_in_ckpt_q01_q99": 0.9933333333333333,
+   "clipped_frames": 0
+  },
+  "wrist_roll": {
+   "run": [
+    -24.395605087280273,
+    -6.989010810852051,
+    17.80219841003418
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "gripper": {
+   "run": [
+    1.096319556236267,
+    1.8010963201522827,
+    29.913860321044922
+   ],
+   "frac_in_ckpt_q01_q99": 0.9977777777777778,
+   "clipped_frames": 0
+  }
+ },
+ "state_clamped": {
+  "shoulder_pan": 0,
+  "shoulder_lift": 0,
+  "elbow_flex": 0,
+  "wrist_flex": 0,
+  "wrist_roll": 0,
+  "gripper": 0
+ },
+ "inferences": 45,
+ "other_objects_mm": {
+  "agent": 0.0,
+  "desk": 0.0,
+  "desk_mat": 0.0,
+  "gray_box_floor": 0.0,
+  "gray_box_wall_nx": 0.0,
+  "gray_box_wall_ny": 0.0,
+  "gray_box_wall_px": 0.0,
+  "gray_box_wall_py": 0.0
+ }
+}

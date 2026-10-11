@@ -1,0 +1,125 @@
+{
+ "run": "/scratch/pandya.kei/simfoundry-repro/results/so101/vla/bluecube/c1007_2008_s3",
+ "frames": 700,
+ "cube": {
+  "start": [
+   -0.064209945499897,
+   -0.25224006175994873,
+   0.02399998903274536
+  ],
+  "end": [
+   -0.05803088843822479,
+   -0.3029058873653412,
+   0.02399999462068081
+  ],
+  "net_displacement_m": 0.051041224813355275,
+  "path_length_m": 0.12652230867980843,
+  "max_lift_m": 0.014536447823047638
+ },
+ "box": {
+  "centre": [
+   0.13779000000000005,
+   -0.25824,
+   0.0
+  ],
+  "inner": 0.08,
+  "rim_height_m": 0.04
+ },
+ "success": {
+  "cube_in_box_final": false,
+  "cube_in_box_any_frame": false,
+  "cube_over_box_loose": false,
+  "frames_in_box": 0
+ },
+ "gripper": {
+  "min_grasp_centre_to_cube_m": 0.012193210760416146,
+  "at_frame": 128,
+  "start_distance_m": 0.14236698475961462,
+  "final_distance_m": 0.10510202875396371,
+  "ever_opened": true,
+  "cmd_range": [
+   1.4221010208129883,
+   30.04926300048828
+  ],
+  "achieved_range": [
+   1.4867395432694075,
+   30.039224901327504
+  ],
+  "frames_closed_on_cube": 39
+ },
+ "action_vs_training": {
+  "shoulder_pan": {
+   "run": [
+    -0.38291168212890625,
+    19.20075511932373,
+    36.15886688232422
+   ],
+   "frac_in_ckpt_q01_q99": 0.9328571428571428,
+   "clipped_frames": 0
+  },
+  "shoulder_lift": {
+   "run": [
+    -104.54138946533203,
+    6.4741129875183105,
+    25.876667022705078
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "elbow_flex": {
+   "run": [
+    -23.776535034179688,
+    -4.321202993392944,
+    96.67724609375
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "wrist_flex": {
+   "run": [
+    73.01670837402344,
+    80.05941772460938,
+    86.69097900390625
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "wrist_roll": {
+   "run": [
+    -3.6253607273101807,
+    10.236567497253418,
+    24.71306610107422
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  },
+  "gripper": {
+   "run": [
+    1.4221010208129883,
+    5.467998743057251,
+    30.04926300048828
+   ],
+   "frac_in_ckpt_q01_q99": 1.0,
+   "clipped_frames": 0
+  }
+ },
+ "state_clamped": {
+  "shoulder_pan": 10,
+  "shoulder_lift": 1,
+  "elbow_flex": 0,
+  "wrist_flex": 0,
+  "wrist_roll": 0,
+  "gripper": 3
+ },
+ "inferences": 70,
+ "other_objects_mm": {
+  "agent": 0.0,
+  "desk": 0.0,
+  "desk_mat": 0.0,
+  "gray_box_floor": 0.0,
+  "gray_box_wall_nx": 0.0,
+  "gray_box_wall_ny": 0.0,
+  "gray_box_wall_px": 0.0,
+  "gray_box_wall_py": 0.0
+ }
+}

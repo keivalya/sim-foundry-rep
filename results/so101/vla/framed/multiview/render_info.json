@@ -1,0 +1,34 @@
+{
+  "cameras": [
+    "hero",
+    "orbit_b",
+    "orbit_c",
+    "closeup",
+    "top",
+    "wrist"
+  ],
+  "frames_rendered": 450,
+  "stride": 1,
+  "width": 720,
+  "height": 450,
+  "fps": 30,
+  "floor": true,
+  "poses": "/scratch/pandya.kei/simfoundry-repro/results/so101/vla/framed/poses.npz",
+  "wrist_cam": {
+    "mount": "-0.005,0.06,-0.062",
+    "forward": "0.0,-0.707106886,-0.707106677",
+    "up": "0.0,0.707106677,-0.707106886",
+    "intrinsics": "412.3120994977382,412.3120856288367,320.0,240.0,640.0,480.0",
+    "fov_override": 0.0
+  },
+  "seconds_total": 6191.0,
+  "seconds_geometry_build": 181.6,
+  "seconds_per_camera": {
+    "hero": 992.9,
+    "orbit_b": 994.5,
+    "orbit_c": 918.2,
+    "closeup": 1133.6,
+    "top": 1012.6,
+    "wrist": 624.2
+  }
+}

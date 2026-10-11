@@ -1,0 +1,27 @@
+{
+  "cameras": [
+    "hero",
+    "orbit_b",
+    "orbit_c",
+    "closeup",
+    "top",
+    "wrist"
+  ],
+  "frames_rendered": 327,
+  "stride": 1,
+  "width": 720,
+  "height": 450,
+  "fps": 15,
+  "floor": true,
+  "poses": "/scratch/pandya.kei/simfoundry-repro/scene_data/reference_demo/pick_place/pick_place_so101_poses.npz",
+  "seconds_total": 5854.6,
+  "seconds_geometry_build": 167.2,
+  "seconds_per_camera": {
+    "hero": 867.1,
+    "orbit_b": 795.0,
+    "orbit_c": 845.4,
+    "closeup": 963.0,
+    "top": 1116.2,
+    "wrist": 969.9
+  }
+}

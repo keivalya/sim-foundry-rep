@@ -1,0 +1,1 @@
+/scratch/pandya.kei/hf_cache/hub/models--pdhinaka--pi05_so101_blue_cube_gray_box_cleaned_20k/blobs/6e82e87e24c39b7dd0db2607d98285a2f2edc7a4

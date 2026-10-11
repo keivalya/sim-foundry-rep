@@ -1,0 +1,57 @@
+# ---- symlinks to things that live elsewhere on the cluster ----
+/conda_envs
+/SimFoundry
+/scene_data
+/logs
+
+# ---- third-party source trees (clone them yourself; see README) ----
+/vla/lerobot_src/
+/vla/openpi_src/
+/assets_hf/
+
+# ---- regenerable caches and intermediates ----
+*.npz.tmp
+**/geom_cache*.npz
+**/__pycache__/
+*.pyc
+*.bak
+*.orig
+
+# ---- raw per-frame captures: tens of thousands of PNGs, ~11 GB ----
+# The mp4s built from them ARE committed.
+**/frames/
+**/wrist_cam/
+**/top_cam/
+**/multiview_preview/frames/
+**/so101_frames/
+**/pick_place_frames/
+**/dataset_ref/
+**/kitcrash/
+
+# ---- large derived robot assets: rebuild with tools/deinstance_so101.py ----
+/robot/so101_usd/*.usd
+/robot/so101_src/
+
+# ---- per-run bulk ----
+**/episode.npz
+**/policy_server.log
+
+# ---- NVIDIA's own published assets, fetched for comparison (not our work) ----
+/results/nvidia_gallery/
+
+# ---- the 153 MB wrist-camera capture: keep only its evidence stills ----
+/results/so101/wristcam/run_*/ext_parented/
+/results/so101/wristcam/run_*/ext_scene/
+/results/so101/wristcam/run_*/*.npz
+
+# ---- blue-cube: 29 rollouts. Keep the campaign scoreboards and the BEST run;
+#      the rest are failed variants whose videos add ~500 MB and no information.
+/results/so101/vla/bluecube/*/videos/
+/results/so101/vla/bluecube/*/multiview/
+/results/so101/vla/bluecube/*/multiview_preview/
+!/results/so101/vla/bluecube/c1007_1702_s2/videos/
+!/results/so101/vla/bluecube/c1007_1702_s2/multiview/
+
+# ---- job logs: they echo environment including HF tokens. Never commit.
+**/logs/
+*.log

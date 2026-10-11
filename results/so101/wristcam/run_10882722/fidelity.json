@@ -1,0 +1,294 @@
+{
+  "probe_dir": "results/so101/wristcam/run_10882722",
+  "scale": 1,
+  "cameras": {
+    "robot0:gripper:Camera:0": {
+      "n_frames": 35,
+      "n_with_seg": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "analysis_resolution": [
+        640,
+        480
+      ],
+      "K_full": [
+        412.31209885263263,
+        412.31209885263263,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        75.63087202410463,
+        60.40594304513148
+      ],
+      "median_depth_err_m": 0.15565589110140327,
+      "p95_depth_err_m": 0.862366128866916,
+      "links": {
+        "base": {
+          "depth_frames": 2,
+          "px_pred_median": 0.0,
+          "hit_frac_median": 0.0,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.021164021164021163,
+          "behind_frac_max": 0.042328042328042326,
+          "infront_frac_median": 0.9788359788359788,
+          "abs_dz_m_median": 0.04520148438791759
+        },
+        "shoulder": {
+          "depth_frames": 1,
+          "px_pred_median": 0.0,
+          "hit_frac_median": 0.0,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.0,
+          "behind_frac_max": 0.0,
+          "infront_frac_median": 1.0,
+          "abs_dz_m_median": 0.025113053359891557
+        },
+        "upper_arm": {
+          "depth_frames": 0,
+          "px_pred_median": 0.0,
+          "hit_frac_median": null,
+          "hit_frac_min": null,
+          "behind_frac_median": null,
+          "behind_frac_max": null,
+          "infront_frac_median": null,
+          "abs_dz_m_median": null
+        },
+        "lower_arm": {
+          "depth_frames": 0,
+          "px_pred_median": 0.0,
+          "hit_frac_median": null,
+          "hit_frac_min": null,
+          "behind_frac_median": null,
+          "behind_frac_max": null,
+          "infront_frac_median": null,
+          "abs_dz_m_median": null
+        },
+        "wrist": {
+          "depth_frames": 0,
+          "px_pred_median": 0.0,
+          "hit_frac_median": null,
+          "hit_frac_min": null,
+          "behind_frac_median": null,
+          "behind_frac_max": null,
+          "infront_frac_median": null,
+          "abs_dz_m_median": null
+        },
+        "gripper": {
+          "depth_frames": 35,
+          "px_pred_median": 1217.0,
+          "hit_frac_median": 0.0,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 1.0,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.0,
+          "abs_dz_m_median": 0.15565589110140327
+        },
+        "jaw": {
+          "depth_frames": 14,
+          "px_pred_median": 0.0,
+          "hit_frac_median": 0.0006839945280437756,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.9661422708618331,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.0035486160397444995,
+          "abs_dz_m_median": 0.22863339830635568
+        }
+      }
+    },
+    "ext_scene": {
+      "n_frames": 35,
+      "n_with_seg": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "analysis_resolution": [
+        640,
+        480
+      ],
+      "K_full": [
+        518.2186027670226,
+        518.2186027670226,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.39066235987519,
+        49.7000697533687
+      ],
+      "median_depth_err_m": 0.011724999436073191,
+      "p95_depth_err_m": 0.14140115695769861,
+      "links": {
+        "base": {
+          "depth_frames": 35,
+          "px_pred_median": 1707.0,
+          "hit_frac_median": 0.622729935559461,
+          "hit_frac_min": 0.4445407279029463,
+          "behind_frac_median": 0.070298769771529,
+          "behind_frac_max": 0.07312722948870393,
+          "infront_frac_median": 0.30697129466900996,
+          "abs_dz_m_median": 0.002377169040586047
+        },
+        "shoulder": {
+          "depth_frames": 35,
+          "px_pred_median": 1453.0,
+          "hit_frac_median": 0.5361321403991741,
+          "hit_frac_min": 0.09154929577464789,
+          "behind_frac_median": 0.12663454920853406,
+          "behind_frac_max": 0.3682373472949389,
+          "infront_frac_median": 0.3372333103922918,
+          "abs_dz_m_median": 0.004350883091912117
+        },
+        "upper_arm": {
+          "depth_frames": 35,
+          "px_pred_median": 1607.0,
+          "hit_frac_median": 0.4212103055721989,
+          "hit_frac_min": 0.09699453551912568,
+          "behind_frac_median": 0.09894212818917238,
+          "behind_frac_max": 0.49559322033898306,
+          "infront_frac_median": 0.4698195395146235,
+          "abs_dz_m_median": 0.007046765452353609
+        },
+        "lower_arm": {
+          "depth_frames": 35,
+          "px_pred_median": 2291.0,
+          "hit_frac_median": 0.2256478999106345,
+          "hit_frac_min": 0.020249221183800622,
+          "behind_frac_median": 0.2570093457943925,
+          "behind_frac_max": 0.7594054807245704,
+          "infront_frac_median": 0.42876106194690267,
+          "abs_dz_m_median": 0.014176680657658813
+        },
+        "wrist": {
+          "depth_frames": 35,
+          "px_pred_median": 2093.0,
+          "hit_frac_median": 0.3403525954946131,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.33706293706293705,
+          "behind_frac_max": 0.9231490159325211,
+          "infront_frac_median": 0.2800196850393701,
+          "abs_dz_m_median": 0.018519024665015926
+        },
+        "gripper": {
+          "depth_frames": 35,
+          "px_pred_median": 1713.0,
+          "hit_frac_median": 0.020100502512562814,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.9223861449647209,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.03187042842215256,
+          "abs_dz_m_median": 0.40011908760523723
+        },
+        "jaw": {
+          "depth_frames": 34,
+          "px_pred_median": 681.0,
+          "hit_frac_median": 0.034082181259600615,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.9117059954148623,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.037557950779497,
+          "abs_dz_m_median": 0.3019951951511103
+        }
+      }
+    },
+    "ext_parented": {
+      "n_frames": 35,
+      "n_with_seg": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "analysis_resolution": [
+        640,
+        480
+      ],
+      "K_full": [
+        518.2186027670226,
+        518.2186027670226,
+        320.0,
+        240.0
+      ],
+      "fov_deg": [
+        63.39066235987519,
+        49.7000697533687
+      ],
+      "median_depth_err_m": 0.011725220042787199,
+      "p95_depth_err_m": 0.14139985182710849,
+      "links": {
+        "base": {
+          "depth_frames": 35,
+          "px_pred_median": 1707.0,
+          "hit_frac_median": 0.622729935559461,
+          "hit_frac_min": 0.4445407279029463,
+          "behind_frac_median": 0.070298769771529,
+          "behind_frac_max": 0.07312722948870393,
+          "infront_frac_median": 0.30697129466900996,
+          "abs_dz_m_median": 0.0023771812942179338
+        },
+        "shoulder": {
+          "depth_frames": 35,
+          "px_pred_median": 1453.0,
+          "hit_frac_median": 0.5361321403991741,
+          "hit_frac_min": 0.09154929577464789,
+          "behind_frac_median": 0.12663454920853406,
+          "behind_frac_max": 0.3682373472949389,
+          "infront_frac_median": 0.3372333103922918,
+          "abs_dz_m_median": 0.004350894034978681
+        },
+        "upper_arm": {
+          "depth_frames": 35,
+          "px_pred_median": 1607.0,
+          "hit_frac_median": 0.4212103055721989,
+          "hit_frac_min": 0.09706083390293917,
+          "behind_frac_median": 0.09894212818917238,
+          "behind_frac_max": 0.49559322033898306,
+          "infront_frac_median": 0.4698195395146235,
+          "abs_dz_m_median": 0.007046750595162243
+        },
+        "lower_arm": {
+          "depth_frames": 35,
+          "px_pred_median": 2291.0,
+          "hit_frac_median": 0.22599374720857526,
+          "hit_frac_min": 0.020249221183800622,
+          "behind_frac_median": 0.2570093457943925,
+          "behind_frac_max": 0.7594054807245704,
+          "infront_frac_median": 0.42876106194690267,
+          "abs_dz_m_median": 0.01424375330611441
+        },
+        "wrist": {
+          "depth_frames": 35,
+          "px_pred_median": 2093.0,
+          "hit_frac_median": 0.3403525954946131,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.33706293706293705,
+          "behind_frac_max": 0.9231490159325211,
+          "infront_frac_median": 0.2800196850393701,
+          "abs_dz_m_median": 0.01850685673595731
+        },
+        "gripper": {
+          "depth_frames": 35,
+          "px_pred_median": 1713.0,
+          "hit_frac_median": 0.020100502512562814,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.9223861449647209,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.03187042842215256,
+          "abs_dz_m_median": 0.4001190879085834
+        },
+        "jaw": {
+          "depth_frames": 34,
+          "px_pred_median": 681.0,
+          "hit_frac_median": 0.034082181259600615,
+          "hit_frac_min": 0.0,
+          "behind_frac_median": 0.9117059954148623,
+          "behind_frac_max": 1.0,
+          "infront_frac_median": 0.037557950779497,
+          "abs_dz_m_median": 0.3019935239643143
+        }
+      }
+    }
+  }
+}
